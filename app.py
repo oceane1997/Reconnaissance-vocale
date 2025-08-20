@@ -18,7 +18,7 @@ if "segments" not in st.session_state:
 st.set_page_config(page_title="Reconnaissance vocale", page_icon="🎤")
 
 st.title("🎤 Application de reconnaissance vocale")
-st.caption("Étape 1/5 — Choix de l’API & de la langue, transcription d’un fichier audio (WAV/FLAC).")
+st.caption("Étapes — Choix de l’API & de la langue, transcription d’un fichier audio (WAV/FLAC).")
 
 # ---------- Aide / instructions ----------
 with st.expander("📝 Instructions (ouvrir)"):
